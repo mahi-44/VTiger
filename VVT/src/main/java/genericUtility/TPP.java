@@ -4,6 +4,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class TPP {
+	
+	public TPP() {
+		
+	}
 
 	@FindBy(linkText = "Organization")
 	private WebElement contactsLink;
