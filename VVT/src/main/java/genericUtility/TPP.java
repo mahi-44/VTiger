@@ -1,7 +1,6 @@
 package genericUtility;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.WebDriver;
 
 public class TPP {
 
@@ -25,7 +24,11 @@ public class TPP {
 	public WebElement getOrganization() {
 		// TODO Auto-generated method stub
 		return contactsLink;
-
+	
+	public static WebDriver driver;
+	
+	public TPP() {
+		System.out.println("vdfh");
 	}
 
 }
